@@ -1,0 +1,31 @@
+CARDS=10
+BORDER=ROUNDED,#000000,0.1
+UNIT=CM
+PAGE=21,29.7,PORTRAIT,HV
+DPI=300
+CARDSIZE=4,6
+BASERANGE=,ON
+
+FONT=Arial, 14, B U, #000000
+TEXT = 1-2, "Animal abandonné", 0, 0.5, 100%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 1-2, "Chasser ou apprivoiser", 0.4, 3, 80%, 50%, CENTER, WWTOP
+
+FONT=Arial, 14, B U, #000000
+TEXT = 3-4, "Vehicule decrepit", 0, 0.5, 100%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 3-4, "Utiliser ou desosser", 0.4, 3, 80%, 50%, CENTER, WWTOP
+
+FONT=Arial, 14, B U, #000000
+TEXT = 5-7, "Ancien barrage", 0, 0.5, 100%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 5-7, "Reparer ou fouiller", 0.4, 3, 80%, 50%, CENTER, WWTOP
+
+FONT=Arial, 14, B U, #000000
+TEXT = 8-10, "Ancien abris", 0, 0.5, 100%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 8-10, "Ignorer ou fouiller", 0.4, 3, 80%, 50%, CENTER, WWTOP

@@ -1,0 +1,200 @@
+CARDS=20
+BORDER=ROUNDED,#000000,0.1
+UNIT=CM
+PAGE=21,29.7,PORTRAIT,HV
+DPI=300
+CARDSIZE=6,9
+BASERANGE=,ON
+
+LINE = 1-20, 0.2, 4.5, 5.8, 4.5, #000000, 0.05
+
+;ancien abris
+FONT=Arial, 14, B U, #000000
+TEXT = 1-5, "Fouiller", 0, 0.5, 100%, 1, CENTER, TOP
+
+FONT=Arial, 12, B, #000000
+TEXT = 1-2, "+2 energie                +3 ressources", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 1-2, "Vous trouvez une abondance de ressource dans l'abri deserté", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B, #000000
+TEXT = 3-4, "-1 energie     (Rampant Pourri)", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 3-4, "Un zombi a moitié pourri vous aggripe la cheville, surement l'ancien habitant", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B, #000000
+TEXT = 5, "-2 energie     (Rampant caché)", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 5, "Un zombi vous saute dessus par surprise, surement l'ancien habitant", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+
+FONT=Arial, 14, B U, #000000
+TEXT = 1-5, "Ignorer", 0, 7.5, 100%, 1, CENTER, TOP, 180
+
+FONT=Arial, 12, B, #000000
+TEXT = 1, "+1 energie", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 1, "Passer à côté de l'abris vous revigore un peu", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B, #000000
+TEXT = 2, "-1 energie     (Rampant Pourri)", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 2, "Un zombi a moitié pourri vous aggripe la cheville, surement l'ancien habitant", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B, #000000
+TEXT = 3-5, "Rien", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 3-5, "Vous passez sans vous retourner", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+;ancien barrage
+FONT=Arial, 14, B U, #000000
+TEXT = 6-10, "Fouiller", 0, 0.5, 100%, 1, CENTER, TOP
+
+FONT=Arial, 12, B, #000000
+TEXT = 6, "-1 energie     (Rampant Pourri)", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 6, "Un zombi vous attrape soudainement la cheville", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B, #000000
+TEXT = 7-8, "+1 ressource", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 7-8, "Vous trouvez un peu de materiel", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B, #000000
+TEXT = 9, "+2 ressources", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 9, "Vous arrivez a en tirer pas mal de matériel", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B, #000000
+TEXT = 10, "Rien", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 10, "Malheureusement il n'y a rien a recuperer", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+
+FONT=Arial, 14, B U, #000000
+TEXT = 6-10, "Reparer", 0, 7.5, 100%, 1, CENTER, TOP, 180
+
+FONT=Arial, 12, B, #000000
+TEXT = 6, "1 marqueur barricade", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 6, "Vous reparez facilement le barrage.", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B, #000000
+TEXT = 7, "Si -1 energie,              1 marqueur barricade", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 7, "Avec un peu d'effort vous pouvez reparer la barricade", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B, #000000
+TEXT = 8, "Si -1 ressource,            1 marqueur barricade", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 8, "Avec un peu de materiel, vous pouvez reparer la barricade", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B, #000000
+TEXT = 9, "-1 energie", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 9, "Malgres les efforts vous n'arrivez a rien", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B I, #000000
+TEXT = 10, "-2 energies (Rampant caché)", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 10, "Un rampant caché vous saute dessus quand vous vous approchez", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+
+
+;animal abandonné
+FONT=Arial, 14, B U, #000000
+TEXT = 11-15, "Chasser", 0, 0.5, 100%, 1, CENTER, TOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 11, "-2 energies", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 11, "Vous essayez de l'attraper mais impossible, beaucoup d'efforts pour rien.", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 12, "-1 energie", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 12, "Vous essayez de l'attraper mais il disparait rapidement.", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 13, "Rien", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 13, "Il s'enfuit immediatement", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 14, "+3 energie, +1 ressources", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 14, "Vous arrivez a l'attraper, un repas et un peu de materiel vous recompensent.", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 15, "+4 energie", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 15, "Vous arrivez a l'attraper et profitez des bénéfices d'un bon repas.", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+
+FONT=Arial, 14, B U, #000000
+TEXT = 11-15, "Apprivoiser", 0, 7.5, 100%, 1, CENTER, TOP, 180
+
+FONT=Arial, 12, B I, #000000
+TEXT = 11-13, "-1 energie, 1 jeton compagnon animal", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 11-13, "Vous arrivez a gagner sa confiance avec un peu d'efforts.", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+
+FONT=Arial, 12, B I, #000000
+TEXT = 14-15, "-2 energie", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 14-15, "Malgres vos efforts vous n'arrivez pas a gagner sa confiance.", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+
+;vehicule decrepit
+FONT=Arial, 14, B U, #000000
+TEXT = 16-20, "Utiliser", 0, 0.5, 100%, 1, CENTER, TOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 16, "Rien", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 16, "Le vehicule refuse de bouger", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 17, "-2 energie (rampant caché)", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 17, "Un zombi était caché pres du vehicule et vous agresse", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 18, "Si -X ressources, jeton vehicule X", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 18, "Avec un peu de materiel, il est possible de remettre le vehicule en route", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 19, "Jeton vehicule face 1", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 19, "Le vehicule accepte de démarrer mais ne tiendra pas longtemps", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+FONT=Arial, 12, B I, #000000
+TEXT = 20, "Jeton vehicule face 2", 0.5, 1.5, 75%, 2, LEFT, WWTOP
+FONT=Arial, 10, B I, #000000
+TEXT = 20, "Le vehicule pourra vous emmener assez loin", 0.5, 2.9, 75%, 1.5, LEFT, WWTOP
+
+
+FONT=Arial, 14, B U, #000000
+TEXT = 16-20, "Fouiller", 0, 7.5, 100%, 1, CENTER, TOP, 180
+
+FONT=Arial, 12, B I, #000000
+TEXT = 16-17, "Rien", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 16-17, "Il n'y a rien a trouver dans le vehicule.", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B I, #000000
+TEXT = 18, "+1 ressource", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 18, "Vous trouvez un peu de materiel.", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B I, #000000
+TEXT = 19, "+1 energie", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 19, "Vous trouvez un peu de nourriture dans le vehicule.", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180
+
+FONT=Arial, 12, B I, #000000
+TEXT = 20, "-2 energie (rampant caché)", 0.5, 5.5, 75%, 2, LEFT, WWTOP, 180
+FONT=Arial, 10, B I, #000000
+TEXT = 20, "Un zombi était caché pres du vehicule et vous agresse.", 0.5, 4.6, 75%, 1.5, LEFT, WWTOP, 180

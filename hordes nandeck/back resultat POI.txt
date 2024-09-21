@@ -1,0 +1,36 @@
+CARDS=20
+BORDER=ROUNDED,#000000,0.1
+UNIT=CM
+PAGE=21,29.7,PORTRAIT,HV
+DPI=300
+CARDSIZE=6,9
+BASERANGE=,ON
+
+FONT=Arial, 14, B U, #000000
+TEXT = 1-20, "Resultat", 0, 0.5, 100%, 1, CENTER, TOP
+
+FONT=Arial, 14, B, #000000
+TEXT = 1-5, "(Ancien Abris)", 0, 3, 100%, 25%, CENTER, TOP
+FONT=Arial, 14, B, #000000
+TEXT = 1-5, "(Ancien Abris)", 0, 4, 100%, 25%, CENTER, TOP, 180
+
+FONT=Arial, 14, B, #000000
+TEXT = 6-10, "(Ancien barrage)", 0, 3, 100%, 25%, CENTER, TOP
+FONT=Arial, 14, B, #000000
+TEXT = 6-10, "(Ancien barrage)", 0, 4, 100%, 25%, CENTER, TOP, 180
+
+FONT=Arial, 14, B, #000000
+TEXT = 11-15, "(Animal abandonné)", 0, 3, 100%, 25%, CENTER, TOP
+FONT=Arial, 14, B, #000000
+TEXT = 11-15, "(Animal abandonné)", 0, 4, 100%, 25%, CENTER, TOP, 180
+
+
+FONT=Arial, 14, B, #000000
+TEXT = 16-20, "(Vehicule decrepit)", 0, 3, 100%, 25%, CENTER, TOP
+FONT=Arial, 14, B, #000000
+TEXT = 16-20, "(Vehicule decrepit)", 0, 4, 100%, 25%, CENTER, TOP, 180
+
+
+
+
+

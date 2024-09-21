@@ -1,0 +1,62 @@
+CARDS=12
+BORDER=ROUNDED,#000000,0.2
+UNIT=CM
+PAGE=21,29.7,PORTRAIT
+DPI=300
+CARDSIZE=4,6
+MARGINS=1,1,1,1
+BASERANGE=,ON
+
+;rien
+FONT=Arial, 14, B U, #000000
+TEXT = 1-5, "Rien", 0.4, 0.5, 80%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 10, B, #000000
+TEXT = 1-2, "Aucun effet", 0.5, 2, 75%, 2, LEFT, WWTOP
+FONT=Arial, 8, B I, #000000
+TEXT = 1-2, "Par chance vous arrivez a eviter toutes conséquence a l'incident.", 0.5, 4, 75%, 2, LEFT, WWTOP
+
+;terrain difficile
+FONT=Arial, 14, B U, #000000
+TEXT = 3-4, "Terrain difficile", 0.4, 0.5, 80%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 10, B, #000000
+TEXT = 3-4, "-2 energie (Pas d'élimination)", 0.5, 2, 75%, 2, LEFT, WWTOP
+FONT=Arial, 8, B I, #000000
+TEXT = 3-4, "Le chemin que vous prenez se revele particulierement difficile et vous fatigue plus que prevu.", 0.5, 4, 75%, 2, LEFT, WWTOP
+
+;Cul de sac
+FONT=Arial, 14, B U, #000000
+TEXT = 5-6, "Cul de sac", 0.4, 0.5, 80%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 10, B, #000000
+TEXT = 5-6, "Avancer annoncé - 2", 0.5, 2, 75%, 2, LEFT, WWTOP
+FONT=Arial, 8, B I, #000000
+TEXT = 5-6, "Un cul de sac imprevu vous oblige a rebrousser chemin et reduire la distance prévue.", 0.5, 4, 75%, 2, LEFT, WWTOP
+
+;Cheville foulée
+FONT=Arial, 14, B U, #000000
+TEXT = 7-8, "Cheville foulée", 0.4, 0.5, 80%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 10, B, #000000
+TEXT = 7-8, "Prochain avancer coute +1 energie", 0.5, 2, 75%, 2, LEFT, WWTOP
+FONT=Arial, 8, B I, #000000
+TEXT = 7-8, "Vous vous foulez une cheville dans la precipitation.", 0.5, 4, 75%, 2, LEFT, WWTOP
+
+;Cheville cassée
+FONT=Arial, 14, B U, #000000
+TEXT = 9-10, "Cheville cassée", 0.4, 0.5, 80%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 10, B, #000000
+TEXT = 9-10, "Avancer coute +1 energie, payez 1 ressource pour annuler", 0.5, 2, 75%, 2, LEFT, WWTOP
+FONT=Arial, 8, B I, #000000
+TEXT = 9-10, "Un accident de terrain vous prend par surprise et vous avez besoin d'une attelle improvisée.", 0.5, 4, 75%, 2, LEFT, WWTOP
+
+;Sac percé
+FONT=Arial, 14, B U, #000000
+TEXT = 11-12, "Sac dechiré", 0.4, 0.5, 80%, 1.5, CENTER, WWTOP
+
+FONT=Arial, 10, B, #000000
+TEXT = 11-12, "Perdez toutes vos ressources", 0.5, 2, 75%, 2, LEFT, WWTOP
+FONT=Arial, 8, B I, #000000
+TEXT = 11-12, "Votre sac se déchire et vous perdez toutes vos ressources.", 0.5, 4, 75%, 2, LEFT, WWTOP
